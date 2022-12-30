@@ -10,7 +10,6 @@ const TicTacToe = () => {
          <div >
           <h1 className='h1'>TicTacToe</h1>
             <Board/>
-            <i class="bi bi-linkedin"></i>
             <Footer/>
          </div>
    
