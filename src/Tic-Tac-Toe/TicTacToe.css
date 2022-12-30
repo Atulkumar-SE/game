@@ -1,0 +1,17 @@
+body{
+
+    background: #00FFB6;
+}
+.h1{
+    font-size: 6rem;
+    text-align: center;
+    margin-top: -1rem;
+    color: rgb(255, 0, 72);
+}
+
+@media (max-width:500px) {
+    .h1{
+        font-size: 3rem;
+        margin-top: 2rem;
+    }
+}

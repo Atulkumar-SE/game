@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer{
+   
+    margin-top: 3rem;
+    padding: 3rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background: rgb(0, 0, 0);
+}
+.right a{
+    text-decoration: none;
+    color: rgb(38, 0, 255);
+    font-size: 2rem;
+}
+/* .left{
+    display: inline-block;
+}
+.right{
+    display: inline-block;
+} */
+
+@media (max-width:500px) {
+    .footer{
+        padding: 5rem 2rem;
+    }
+    .left h1{
+        font-size: 1.3rem;
+    }
+}

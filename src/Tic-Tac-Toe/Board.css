@@ -1,0 +1,51 @@
+.board_container{
+    /* width: 60%; */
+    margin: auto;
+    text-align: center;
+}
+.board_container .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.player{
+    color: #b600ff;
+}
+h2{
+    font-size: 2rem;
+    color: #b600ff;
+}
+button{
+    width: 10rem;
+    height: 3.5rem;
+    border: 1px solid rgb(177, 116, 2);
+    color: black;
+    background: #ffb600;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+button:hover{
+    background: greenyellow;
+}
+
+
+/* -----------------Square.Css--------------------------------- */
+
+.square{
+    width: 8rem;
+    height: 8rem;
+    color: #00FFB6;;
+    background-color: rgb(255, 0, 72);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #00FFB6;
+}
+
+@media (max-width:500px) {
+    .square{
+        width: 5rem;
+        height: 5rem;
+    }
+   
+}
